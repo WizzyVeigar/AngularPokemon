@@ -1,0 +1,5 @@
+<h1> {{pokemon.name}} </h1>
+<h2> #{{pokemon.number}} </h2>
+<div *ngFor="let type of this.pokemon.types;" [ngClass] = type class="pokeColor"  value={{pokemon.number}}>
+<p>{{type}}</p>
+</div>    

@@ -1,0 +1,53 @@
+.pokeColor{
+    background-color: rgb(207, 204, 204);
+}
+
+.Grass{
+    background-color: green;
+}
+
+.Dragon{
+    background-color: rgb(76, 112, 141);
+}
+
+.Electric{
+    background-color: yellow;
+}
+
+.Fire{
+    background-color: maroon;
+}
+
+.Psychic{
+    background-color: mediumorchid;
+}
+
+.Flying{
+    background-color: lightskyblue;
+}
+
+.Water{
+    background-color: blue;
+}
+
+.Dark{
+    background-color: rgb(75, 68, 68);
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-shadow:  2px 1px black;
+    font-size:30px;
+}
