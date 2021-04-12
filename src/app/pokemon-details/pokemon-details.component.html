@@ -1,0 +1,18 @@
+<div class="pokemon-DetailAligner" >
+    <div class="pokemonsContainer">
+        <div class="doubleContainer">
+            <h1> {{pokemon.name}} </h1>
+            <h1> {{pokemon.number}} </h1>
+            <div>
+                <h2> Types: </h2>
+            </div>
+            <div *ngFor="let type of this.pokemon.types;">  
+                <p [ngClass] = type >{{type}} </p>
+            </div>
+            <h2> Found in: </h2> 
+            <div *ngFor="let region of pokemon.regions"> 
+                <p class="region" >{{region}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+.pokeColor{
+    border: 1px solid black;
+    width: 8vw;
+    background-color: grey;
+    border-radius: 90%;
+    margin-left: auto;
+    margin-top: 2%;
+    margin-right: auto;
+}
+
+.Grass{
+    background-color: rgb(120, 200, 80);
+}
+
+.Dragon{
+    background-color: rgb(112, 56, 248);
+}
+
+.Electric{
+    background-color: rgb(248, 208, 48);
+}
+
+.Fire{
+    background-color:rgb(240, 128, 48)
+}
+
+.Steel{
+    background-color: rgb(184, 184, 208);
+}
+.Psychic{
+    background-color: rgb(248, 88, 136)
+}
+.Ghost{
+    background-color: rgb(112, 88, 152);
+}
+.Flying{
+    background-color: rgb(168, 144, 240);
+}
+
+.Water{
+    background-color: rgb(104, 144, 240);
+}
+.Poison{
+    background-color: rgb(160, 64, 160);
+}
+.Dark{
+    background-color: rgb(112, 88, 72);
+}
+.Bug{
+    background-color: rgb(168, 184, 32);
+}
+.Ice{
+    background-color: rgb(152, 216, 216);
+}
+.Ground{
+    background-color: rgb(224, 192, 104);
+}
+.Normal{
+    background-color: rgb(168, 168, 120);
+}
+.Rock{
+    background-color: rgb(184, 160, 56);
+}
+.Fighting{
+    background-color: rgb(192, 48, 40);
+}
+
+.Fairy{
+    background-color: rgb(238, 153, 172);
+}
+
+.pokeColor div{
+    text-align: center;    
+}
+
+.pokeColor h1{
+    text-align: center;
+}
+
+.pokeColor h2{
+    text-align: center;
+}
+
+.pokeColor p{
+    color: white;
+    text-shadow:  2px 2px black;
+    font-size:30px;
+}
+
+
+.doubleContainer{
+    width: 25vw;
+    min-width: 25vw;
+    height: 30vh;
+    min-height: 25vh;    
+    text-align: center;
+    background-color: rgb(243, 234, 234);
+    border: 1px solid black;
+    margin: 2px;
+    transition: transform .2s;
+}

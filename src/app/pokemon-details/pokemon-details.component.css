@@ -1,0 +1,17 @@
+.pokemon-DetailAligner{
+    width: 100vw;
+}
+
+.doubleContainer{
+    text-align: center;
+    height:40vh;
+}
+
+.region{
+    
+    background-color: white;
+    color: black;
+    text-shadow: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}

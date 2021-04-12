@@ -1,17 +1,8 @@
-.doubleContainer{
-    width: 32%;
-    height: 32%;    
-    align-content: center;
-    background-color: rgb(243, 234, 234);
-    border: 1px solid black;
-    display: inline-table;
-    margin: 2px;
+.pokemonsContainer{
+    margin: auto;
+    text-align: center;
 }
-.singleContainer{
-    width: 32%;    
-    align-content: center;
+.pokemonAligner{
+    
     display: inline-table;
-    background-color: rgb(243, 234, 234);
-    border: 1px solid black;
-    margin: 2px;
 }

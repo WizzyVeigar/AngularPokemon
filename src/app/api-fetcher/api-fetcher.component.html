@@ -1,3 +1,5 @@
-<div *ngFor="let pokemon of this.pokemons;" [className]="pokemon.types.length == 1 ? 'singleContainer' : 'doubleContainer'">
-<app-pokemon [CustomPokemon]="pokemon" attr.id="{{pokemon.name+pokemon.number}}"> </app-pokemon>
-</div>
+<div class="pokemonsContainer">
+    <div *ngFor="let pokemon of this.pokemons;" class="pokemonAligner">
+        <app-pokemon [CustomPokemon]="pokemon" attr.id="{{pokemon.name+pokemon.number}}"> </app-pokemon>
+    </div>
+<div>
