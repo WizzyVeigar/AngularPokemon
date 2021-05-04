@@ -12,7 +12,6 @@ import { PokemonDetailsComponent } from '../pokemon-details/pokemon-details.comp
   styleUrls: ['./api-fetcher.component.css']
 })
 
-
 @Injectable()
 export class ApiFetcherComponent implements OnInit {
   

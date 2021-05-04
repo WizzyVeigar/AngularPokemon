@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { ApiFetcherComponent } from './api-fetcher/api-fetcher.component';
 import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
-import { CustomPokemon } from '../app/CustomPokemon';
 
 @NgModule({
   declarations: [
